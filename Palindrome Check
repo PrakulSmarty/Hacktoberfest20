@@ -1,0 +1,12 @@
+# if a string is palindrome or not
+
+x = str(input("Enter The String You Want To Check:"))
+
+w = ""
+for i in x:
+	w = i + w
+
+if (x == w):
+	print("Yes")
+else:
+	print("No")
